@@ -1,6 +1,7 @@
 import numpy as np
 
 #encodes text array containing categorical labels into numeric labels
+#x is the list of categorical labels that you wish to encode into numerical categorical data
 
 def encode(x):
     uniqueClasses = set(x)
